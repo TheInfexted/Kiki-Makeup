@@ -17,8 +17,8 @@ const config: Config = {
         surface: '#FFFFFF'
       },
       fontFamily: {
-        serif: ['var(--font-cormorant)', 'Georgia', 'serif'],
-        sans: ['var(--font-inter)', 'system-ui', 'sans-serif']
+        serif: ['var(--font-cormorant)', '"Noto Serif SC"', 'Georgia', 'serif'],
+        sans: ['var(--font-inter)', '"Noto Serif SC"', 'system-ui', 'sans-serif']
       },
       letterSpacing: {
         eyebrow: '0.25em'
