@@ -10,7 +10,7 @@ export function LanguageToggle({ className = '' }: { className?: string }) {
       type="button"
       onClick={() => setLang(lang === 'zh' ? 'en' : 'zh')}
       aria-label={t(ui.language.aria)}
-      className={`font-sans text-xs font-semibold uppercase tracking-wider border border-current px-3 py-1 ${className}`}
+      className={`font-sans text-xs font-semibold uppercase tracking-wider border border-current px-4 py-2 min-h-[44px] min-w-[44px] ${className}`}
     >
       {t(ui.language.toggle)}
     </button>

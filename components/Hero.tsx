@@ -28,7 +28,7 @@ export function Hero() {
         sizes="100vw"
         className="object-cover"
       />
-      <div className="absolute inset-0 bg-gradient-to-b from-black/10 via-transparent to-espresso/75" />
+      <div className="absolute inset-0 bg-gradient-to-b from-black/10 via-transparent to-espresso/75 pointer-events-none" />
       <div className="absolute top-0 right-0 p-5 z-10">
         <LanguageToggle className="text-cream border-cream" />
       </div>
