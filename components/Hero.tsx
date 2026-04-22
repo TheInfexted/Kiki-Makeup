@@ -29,7 +29,7 @@ export function Hero() {
         className="object-cover"
       />
       <div className="absolute inset-0 bg-gradient-to-b from-black/10 via-transparent to-espresso/75 pointer-events-none" />
-      <div className="absolute top-0 right-0 p-5 z-10">
+      <div className="absolute top-0 right-0 p-5 z-20">
         <LanguageToggle className="text-cream border-cream" />
       </div>
       <div className="relative z-10 flex flex-col justify-end min-h-[88vh] px-6 pb-12 pt-24 max-w-content mx-auto">

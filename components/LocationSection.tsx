@@ -1,6 +1,6 @@
 'use client';
 
-import { MapPin, MessageCircle, Instagram } from 'lucide-react';
+import { MapPin, MessageCircle } from 'lucide-react';
 import { useTranslation } from '@/lib/i18n';
 import { contact, ui } from '@/lib/content';
 
@@ -35,15 +35,6 @@ export function LocationSection() {
           <a href={waUrl} target="_blank" rel="noopener noreferrer" className="btn-primary flex items-center justify-center gap-2">
             <MessageCircle size={16} />
             {t(ui.location.whatsappCta)} · {contact.whatsappDisplay}
-          </a>
-          <a
-            href={contact.instagramUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="link-underline text-espresso flex items-center gap-2 self-start"
-          >
-            <Instagram size={14} />
-            {t(ui.location.instagramCta)} · {contact.instagramHandle}
           </a>
         </div>
       </div>

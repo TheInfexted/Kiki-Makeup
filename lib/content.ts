@@ -82,10 +82,10 @@ export const faqs: FAQ[] = [
 export const ui = {
   site: {
     title: { zh: 'Kiki 化妆工作室', en: 'Kiki Makeup Studio' },
-    metaDescription: { zh: '蕉赖韩系新娘 & 个人妆容 · 4 年经验', en: 'Korean-Style Bridal & Personal Makeup in Kepong, KL · 4 years' }
+    metaDescription: { zh: '甲洞韩系新娘 & 个人妆容 · 4 年经验', en: 'Korean-Style Bridal & Personal Makeup in Kepong, KL · 4 years' }
   },
   hero: {
-    eyebrow: { zh: 'KIKI · 吉隆坡蕉赖', en: 'KIKI · KEPONG, KL' },
+    eyebrow: { zh: 'KIKI · 吉隆坡甲洞', en: 'KIKI · KEPONG, KL' },
     headline: { zh: '让你的自然美闪耀。', en: 'Let your natural beauty speak.' },
     subhead: { zh: '4 年专注韩系新娘 & 个人妆。', en: '4 years specializing in Korean-style bridal & personal makeup.' },
     ctaPrimary: { zh: '立即预约', en: 'Book Your Slot' },
@@ -130,7 +130,7 @@ export const ui = {
     },
     step3: {
       title: { zh: '地点', en: 'Where?' },
-      studio: { zh: '工作室 (蕉赖)', en: 'Studio (Kepong)' },
+      studio: { zh: '工作室 (甲洞)', en: 'Studio (Kepong)' },
       onsite: { zh: '外出服务 (我提供地址)', en: "On-site (I'll provide address)" },
       areaLabel: { zh: '大致区域 / 邮编', en: 'Approximate area / postcode' },
       areaPlaceholder: { zh: '例如:八打灵再也 47301', en: 'e.g., Petaling Jaya 47301' }
@@ -162,12 +162,12 @@ export const ui = {
   location: {
     eyebrow: { zh: '地点 · 联络', en: 'LOCATION · CONTACT' },
     title: { zh: '来找我或发 WhatsApp。', en: 'Come by or message me.' },
-    address: { zh: 'Sri Delima MRT 站附近, 蕉赖, 吉隆坡 (详细地址 WhatsApp 发送)', en: 'Near MRT Sri Delima, Kepong, KL (exact address sent via WhatsApp)' },
+    address: { zh: 'Sri Delima MRT 站附近, 甲洞, 吉隆坡 (详细地址 WhatsApp 发送)', en: 'Near MRT Sri Delima, Kepong, KL (exact address sent via WhatsApp)' },
     whatsappCta: { zh: '发 WhatsApp', en: 'Message on WhatsApp' },
     instagramCta: { zh: '访问 Instagram', en: 'Visit Instagram' }
   },
   footer: {
-    copy: { zh: '© 2026 Kiki 化妆工作室 · 吉隆坡蕉赖', en: '© 2026 Kiki Makeup Studio · Kepong, KL' }
+    copy: { zh: '© 2026 Kiki 化妆工作室 · 吉隆坡甲洞', en: '© 2026 Kiki Makeup Studio · Kepong, KL' }
   },
   language: {
     toggle: { zh: 'EN', en: '中文' },
@@ -181,5 +181,5 @@ export const contact = {
   instagramUrl: 'https://instagram.com/kiki.makeup___',
   instagramHandle: '@kiki.makeup___',
   mapsEmbedSrc:
-    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.0!2d101.624!3d3.207!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMsKwMTInMjUuMiJOIDEwMcKwMzcnMjYuNCJF!5e0!3m2!1sen!2smy!4v1700000000000'
+    'https://maps.google.com/maps?q=Sri+Delima+MRT+Kepong+Kuala+Lumpur&z=15&output=embed'
 };
