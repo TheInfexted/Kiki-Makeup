@@ -7,3 +7,5 @@ out/
 coverage/
 .superpowers/
 .vscode/
+/docs
+tsconfig.tsbuildinfo
