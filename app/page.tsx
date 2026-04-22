@@ -2,6 +2,7 @@ import { Hero } from '@/components/Hero';
 import { PhotoStrip } from '@/components/PhotoStrip';
 import { ServicesSection } from '@/components/ServicesSection';
 import { PortfolioSection } from '@/components/PortfolioSection';
+import { BookingWizard } from '@/components/BookingWizard';
 
 export default function Page() {
   return (
@@ -10,6 +11,7 @@ export default function Page() {
       <PhotoStrip />
       <ServicesSection />
       <PortfolioSection />
+      <BookingWizard />
     </main>
   );
 }
