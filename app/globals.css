@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-cream: #F5EFE6;
+  --color-espresso: #2A1D12;
+  --color-warmbrown: #5C4230;
+  --color-caramel: #8B6B48;
+  --color-tan: #C8A882;
+}
+
+html, body {
+  background-color: var(--color-cream);
+  color: var(--color-espresso);
+}
+
+body {
+  font-family: var(--font-inter), system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+@layer components {
+  .eyebrow {
+    @apply font-sans text-xs font-semibold uppercase tracking-eyebrow text-warmbrown;
+  }
+  .headline {
+    @apply font-serif italic font-normal text-espresso leading-tight;
+  }
+  .btn-primary {
+    @apply inline-block bg-espresso text-cream font-sans font-semibold uppercase tracking-wider px-6 py-3 text-sm;
+  }
+  .btn-primary-inverse {
+    @apply inline-block bg-cream text-espresso font-sans font-semibold uppercase tracking-wider px-6 py-3 text-sm;
+  }
+  .link-underline {
+    @apply font-sans uppercase tracking-wider text-sm border-b border-current pb-0.5;
+  }
+}
